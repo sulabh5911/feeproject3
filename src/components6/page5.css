@@ -1,0 +1,116 @@
+.p5{
+    position: absolute;
+    top: 3400px;
+    display: grid;
+    grid-template-columns: 10fr 10fr;
+    height: 1000px;
+    width: 1350px;
+}
+#p5t1{
+    margin-left: 20px;
+    text-align: center;
+}
+#p5h{
+    position: absolute;
+    top: 300px;
+    margin-left: 50px;
+    font-size: 6rem;
+    color: #4a7163;
+}
+#p5hh{
+    position: absolute;
+    top: 400px;
+    margin-left: 50px;
+    font-size: 6rem;
+    color: #4a7163;
+}
+#p5p{
+    position: absolute;
+    top: 580px;
+    margin-left: 50px;
+    font-size: 1.2rem;
+    color: #4a7163;
+}
+#p5but{
+    position: absolute;
+    top: 680px;
+    margin-left: -270px;
+    color: #4a7163;
+    height: 40px;
+    width: 200px;
+    font-size: 1.3rem;
+    background-color: #ebd0cf;
+    border-color:#4a7163;
+    border-width: 5px;
+}
+#p5t2{
+    position: absolute;
+    right: -180px;
+    background-repeat: no-repeat;
+    margin-left: 40px;
+    width: 810px;
+}
+@media(max-width:500px){
+    #p5t2{
+        position: absolute;
+        top: -1200px;
+        margin-right: -200px;
+        display: grid;
+        grid-template-columns: 10fr 10fr;
+        height: 300px;
+        width: 260px
+    }
+}
+@media(max-width:500px){
+    #p5h{
+        position: absolute;
+        top: -1150px;
+        margin-left: 10px;
+        font-size: 1.5rem;
+        width: 150px;
+        color: #4a7163;
+    }
+}
+@media(max-width:500px){
+    #p5hh{
+        position: absolute;
+        top: -1120px;
+        margin-left: 30px;
+        font-size: 1.5rem;
+        color: #4a7163;
+    }
+}
+@media(max-width:500px){
+    #p5p{
+        position: absolute;
+        top: -1070px;
+        margin-left: 20px;
+        width: 100px;
+        font-size: .6rem;
+        color: #4a7163;
+    }
+}
+@media(max-width:500px){
+    .p5{
+        position: absolute;
+        margin-left: -8px;
+        display: grid;
+        grid-template-columns: 10fr 10fr;
+        height: 900px;
+        width: 100px;
+    }
+}
+@media(max-width:500px){
+    #p5but{
+        position: absolute;
+        top: -940px;
+        margin-left: 0px;
+        color: #4a7163;
+        height: 30px;
+        width: 120px;
+        font-size: .8rem;
+        background-color: #ebd0cf;
+        border-color:#4a7163;
+        border-width: 5px;
+    }
+}

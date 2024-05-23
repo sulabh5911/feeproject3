@@ -1,0 +1,77 @@
+#imgss{
+    position: absolute;
+    top: 3800px;
+    display: block;
+   
+}
+.card2-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    
+}
+.card11 {
+    flex: 1 1 calc(40% - 2.5px);
+    position: relative;
+    display: flex; 
+    justify-content: center; 
+    margin-top: 450px;
+    margin-left: -50px;
+    
+    
+}
+.card22 {
+    width: 500px;
+   
+}
+#p7t1{
+    position: absolute;
+    top: 4080px;
+    margin-left: 60px;
+    color: #4a7163;
+    font-size: 1.8rem;
+}
+#p7t2{
+    position: absolute;
+    top: 4120px;
+    margin-left: 50px;
+    color: #4a7163;
+    font-size: 1.5rem;
+}
+@media(max-width:500px){
+    #imgss{
+        width: 300px;
+        margin-left: 100px;
+    }
+}
+@media(max-width:500px){
+    #p7t1{
+        font-size: 1rem;
+        margin-left: 120px;
+        position: absolute;
+        top: 3950px;
+    }
+}
+@media(max-width:500px){
+    #p7t2{
+        font-size: .8rem;
+        margin-left: 100px;
+        position: absolute;
+        top: 4000px;
+    }
+}
+@media(max-width:500px){
+    .card11{
+        position: relative;
+        top: -1900px;
+        height: 0px;
+        margin-top: 300px;
+    }
+}
+@media(max-width:500px){
+    .card2{
+        position: relative;
+        
+    }
+}
+
